@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #1f2937;
+}
+
+.herotext {
+    font-size: 48px;
+    color: #f3f4f6;
+    font-weight: 900;
+}
+
+.herosubtext, nav {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+h1 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+button, .callAction {
+    background-color: #3882f6;
+}
+
+.info {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+footer {
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
+
