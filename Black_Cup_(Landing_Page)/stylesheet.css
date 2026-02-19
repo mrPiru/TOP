@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    outline: 1px solid red;
+    
 }
 
 header, footer {
@@ -51,11 +51,48 @@ header h1, nav{
 nav {
     display: flex;
     margin-left: 55%;
+    padding-right: 1%;
+    flex-direction: row;
 }
 
 header p {
     padding: 2%;
+    text-align: start;
+    margin-right: 40%;
+}
+
+header button {
+    display: block;
+    justify-self: start;
+    margin-left: 20%;
+}
+
+section {
+    padding: 10%;
+}
+
+section info{
+    display: block;
+    width: 80%;
+}
+
+.variants {
     text-align: center;
+    font-weight: 900;
+}
+
+.variant-container {
+    display: inline-flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.freshlyRoasted, .premiumBeans, .richAroma, .perfectBalance {
+    background-color: #79521e27;
+    border-radius: 8px;
+    padding: 2%;
+    width: 20%;
+    border: #dab464 2px solid;
 }
 
 footer {
@@ -63,4 +100,14 @@ footer {
     display: flex;
     justify-content: center;
     padding: 2%;
+}
+
+button {
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 1% 2%;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
 }
